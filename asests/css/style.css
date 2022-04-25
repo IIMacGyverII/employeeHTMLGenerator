@@ -22,9 +22,9 @@ body {
     /* min-width: 100%; */
     min-height: 850px;
     height: 100%;
-    width: 1500px;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 100%;
+    /* padding-left: 10%;
+    padding-right: 10%; */
 
     /* padding-top: 3%; */
 }
@@ -32,9 +32,9 @@ body {
 .topRow {
 display: flex;
 justify-content: space-around;
-padding: 00px 200px 00px 200px;
+padding: 00px 23% 00px 23%;
 height: 400px;
-width: 1490px;
+width: 100%;
 align-items: left;
 /* border: 2px solid black; */
 padding-top: 50px;
@@ -44,10 +44,10 @@ padding-top: 50px;
     display: flex;
     justify-content: space-around;
     height: 400px;
-    width: 1490px;
+    width: 100%;
     align-items: left;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 32%;
+    padding-right: 32%;
     /* border: 2px solid black; */
     /* padding-top: 50px; */
     }
@@ -57,7 +57,7 @@ padding-top: 50px;
     display: inline-block;
     background-color: #0077f7;
     /* padding: -5%; */
-    /* max-height:15vh; */
+    /* max-height: 15vh; */
     height: 80px;
     width: 300px;
     color:white;
@@ -112,6 +112,7 @@ padding-top: 50px;
     box-shadow: 0 0 10px 2px;
     border-radius: 10px;
     border: 2px solid black;
+    margin: 0px 25px 0px 25px;
     box-shadow: 0 0 10px 2px;
 }
 

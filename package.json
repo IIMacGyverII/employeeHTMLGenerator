@@ -1,7 +1,6 @@
 {
   "name": "lib",
   "version": "1.0.0",
-  "description": "",
   "main": "Employee.js",
   "scripts": {
     "test": "jest --verbose"
@@ -14,5 +13,17 @@
   },
   "devDependencies": {
     "jest": "^27.5.1"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIMacGyverII/employeeHTMLGenerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IIMacGyverII/employeeHTMLGenerator/issues"
+  },
+  "homepage": "https://github.com/IIMacGyverII/employeeHTMLGenerator#readme",
+  "description": ""
 }
