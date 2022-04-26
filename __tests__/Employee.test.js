@@ -12,24 +12,44 @@ describe("Employee", () => {
       let employee = new Employee(name, id, email);
 
       //Assert
-      expect(employee.name).toEqual("Reniel");
-      expect(employee.id).toEqual(1);
-      expect(employee.email).toEqual("Reniel@gmail.com");
+      expect(employee.name).toEqual(name);
+      expect(employee.id).toEqual(id);
+      expect(employee.email).toEqual(email);
     });
   });
 
   describe("getName", () => {
-    it("should ", () => {});
+    it("should get the name from Employee", () => {
+      let name = "Reniel";
+      let id = 1;
+      let email = "Reniel@gmail.com";
+      let employee = new Employee(name, id, email);
+      expect(employee.getName()).toEqual(name);
+    });
   });
+
   describe("getId", () => {
-    it("should ", () => {});
+    it("should get the id from Employee", () => {
+      let name = "Reniel";
+      let id = 1;
+      let email = "Reniel@gmail.com";
+      let employee = new Employee(name, id, email);
+      expect(employee.getId()).toEqual(id);
+    });
   });
+
   describe("getEmail", () => {
-    it("should ", () => {});
+    it("should get the email from Employee", () => {
+      let name = "Reniel";
+      let id = 1;
+      let email = "Reniel@gmail.com";
+      let employee = new Employee(name, id, email);
+      expect(employee.getEmail()).toEqual(email);
+    });
   });
+  
   describe("getRole", () => {
     it("should return Employee when getRole is called ", () => {
-      //Arrange
       // Arrange
       let name = "Reniel";
       let id = 1;

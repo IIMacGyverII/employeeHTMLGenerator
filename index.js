@@ -10,7 +10,7 @@ inquirer
     },
     {
     type: 'input',
-    message: 'What is the mangers email?',
+    message: 'What is the managers email?',
     name: 'managerEmail',
     },
     {
