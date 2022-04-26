@@ -73,41 +73,8 @@ inquirer
     message: 'What is the iterns school?',
     name: 'iternSchool',
     },
-    // {
-    //     type: 'input',
-    //     message: 'What did you learn?',
-    //     name: 'whatDidYouLearn',   
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'installation',
-    //     message: 'How do you install this?',   
-    // },
-    // {
-    //     type: 'input',
-    //     message: 'How do you use this project?',
-    //     name: 'usage',   
-    // },
-    // {
-    //     type: 'input',
-    //     message: 'Add a link to a screenshot or gif.  This can be either a url or a relative path to an image file',
-    //     name: 'screenShot',   
-    // },
-    // {
-    //     type: 'input',
-    //     message: 'To whom would you like to give credit?',
-    //     name: 'credit',   
-    // },
-    // {
-    //     type: 'checkbox',
-    //     message: 'Which license did you use?',
-    //     name: 'license',   
-    //     choices: ['Choice1', 'Choice2', 'Choice3', 'Choice4'],
-    // },
 ])
-// .then((data) => {
-//     const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
-// TODO: Create a function to write README file
+
 .then((response) =>
     {
         let content = `
@@ -206,7 +173,7 @@ inquirer
             </section>
             <section class="card" id="card5">
                 <div class="cardHeader">
-                    <p class="card5Name">${response.thirdEngineerName}</p>
+                    <p class="card5Name">${response.iternName}</p>
                     <div>
                         <img class="card5Icon" src="./asests/images/intern.png" width="32px" height="32px"></img><span class="span">Intern</span>
                     </div>                
@@ -216,7 +183,7 @@ inquirer
                         <p class="card5ID">ID: 5</p>
                     </div>
                     <div class="cardTextBox">
-                        <p class="card1Email">Email:<a href="mailto:${response.thirdEngineerEmail}">${response.thirdEngineerEmail}</a></p>
+                        <p class="card1Email">Email:<a href="mailto:${response.iternEmail}">${response.iternEmail}</a></p>
                     </div>
                     <div class="cardTextBox">
                         <p class="card5ContactType">School: ${response.iternSchool}</p>
