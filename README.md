@@ -15,7 +15,7 @@
     1. Run  "NPM i" from bash. 
 ## Usage
     1. Run "node run test" to run the tests.  2. Run node index.js and answer the questions.
-## Screenshot
+## Demonstration Video(Click to play)
 [![Demo Video](https://img.youtube.com/vi/RBxn7bktA3A/0.jpg)](https://www.youtube.com/watch?v=RBxn7bktA3A)
 ## Credit
     All my instructors at Northwestern and my study groups.
