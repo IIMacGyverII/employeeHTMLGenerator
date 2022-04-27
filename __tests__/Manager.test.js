@@ -14,13 +14,13 @@ describe("Manager", () => {
       let email = "Reniel@gmail.com";
       //Act
       let employee = new Employee(name, id, email);
-    //   let Manager = new Manager(gitHub);
+      //   let Manager = new Manager(gitHub);
 
       //Assert
       expect(employee.name).toEqual(name);
       expect(employee.id).toEqual(id);
       expect(employee.email).toEqual(email);
-    //   expect(Manager.gitHub).toEqual(gitHub);
+      //   expect(Manager.gitHub).toEqual(gitHub);
     });
   });
 
@@ -41,12 +41,12 @@ describe("Manager", () => {
   });
 
   describe("OfficeNumber", () => {
-    it("should get the school name from Manager", () => {
+    it("should get the OfficeNumber from Manager", () => {
       let name = "Reniel";
       let id = 1;
       let email = "Reniel@gmail.com";
-      let officeNumber = "Northwestern"
-      let manager = new Manager(name, id, email,officeNumber);
+      let officeNumber = "1";
+      let manager = new Manager(name, id, email, officeNumber);
       expect(manager.getOfficeNumber()).toEqual(officeNumber);
     });
   });
